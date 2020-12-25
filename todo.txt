@@ -1,0 +1,10 @@
+1) serial number with stock ----- count 
+2) add show with price and serial number 
+3) remove show after sale
+4) charts with progress 
+5) push notication for each sale
+6) sale price and buy price 
+
+## Issues ##
+1) Header icon state change
+2) Performance issues

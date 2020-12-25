@@ -1,18 +1,12 @@
 import React from 'react'
-import { SafeAreaView, StyleSheet } from 'react-native'
+import { SafeAreaProvider } from 'react-native-safe-area-context'
 import { AppProvider } from './src/lib'
 import Root from './src/index'
 
 export default () => (
-  <SafeAreaView style={styles.container}>
+  <SafeAreaProvider style={{ flex: 1 }}>
     <AppProvider>
       <Root />
     </AppProvider>
-  </SafeAreaView>
+  </SafeAreaProvider>
 )
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1
-  }
-})

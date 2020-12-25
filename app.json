@@ -1,10 +1,17 @@
 {
   "expo": {
-    "name": "fortune-footwear",
-    "slug": "fortune-footwear",
+    "name": "fortune-footwears",
+    "slug": "fortune-footwears",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./src/assets/images/icon.png",
+    "scheme": "fortune-footwears",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./src/assets/images/splash.png",
+      "backgroundColor": "#000",
+      "resizeMode": "contain"
+    },
     "updates": {
       "fallbackToCacheTimeout": 0
     },
@@ -20,10 +27,9 @@
         "backgroundColor": "#FFFFFF"
       },
       "splash": {
-        "image": "./src/assets/images/splash.png",
-        "backgroundColor": "#000",
         "resizeMode": "native"
-      }
+      },
+      "package": "com.fortune.footwear"
     },
     "web": {
       "favicon": "./src/assets/images/favicon.png"
