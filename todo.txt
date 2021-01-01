@@ -8,3 +8,13 @@
 ## Issues ##
 1) Header icon state change
 2) Performance issues
+
+
+
+item name
+catogory 
+serial No.
+price 
+stock
+tags 
+brand

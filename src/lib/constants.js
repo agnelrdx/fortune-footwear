@@ -12,7 +12,10 @@ export const initialAppData = {
     lastSaleSerialNo: '3121',
     lastSalePrice: '423.00'
   },
-  initialRoute: 'Dashboard'
+  initialRoute: 'Dashboard',
+  settings: {
+    primaryColor: ''
+  }
 }
 
 /* Pie chart dummy data @todo - GET from api */

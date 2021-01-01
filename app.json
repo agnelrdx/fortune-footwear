@@ -28,8 +28,7 @@
       },
       "splash": {
         "resizeMode": "native"
-      },
-      "package": "com.fortune.footwear"
+      }
     },
     "web": {
       "favicon": "./src/assets/images/favicon.png"
